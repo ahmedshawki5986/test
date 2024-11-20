@@ -1,0 +1,142 @@
+@media (max-width:1500px)
+{
+    nav {
+        display: none;
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin: 15px;
+        
+    }
+    header
+    {
+        position: relative;
+    }
+    .headerIconPhone
+{
+    display: block;
+    position: absolute;
+    right: 120px;
+    color: white;
+}
+.firstPage
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #28282B;
+    height: 100vh;
+    width: 100%;
+}
+.firstPage .leftFirstPage
+{
+    height: 50%;
+}
+.firstPage .rightFirstPage{
+    width: 100%;
+    overflow: hidden;
+    height: 50%;
+
+}
+.firstPage .rightFirstPage img
+{
+    width: 40vh;
+}
+.firstPage .leftFirstPage img
+{
+    width: 30vh;
+}
+.secondPage
+{
+    height: 80vh;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items:start;
+ 
+}
+.oneSecondPage,
+.twoSecondPage,
+.threeSecondPage,
+.fourSecondPage,
+.fiveSecondPage,
+.sixSecondPage{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color: #20697d;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.secondPageImg1 img
+{
+    width: 150px;
+    transform: scale(.9);
+ 
+}
+.secondPageImg2 img
+{
+    transform: scale(.9);
+
+  
+}
+.secondPageImg3 img
+{
+    transform: scale(.9);
+
+    width: 200px;
+    
+}
+
+.secondPageImg4 img
+{
+    transform: scale(.8);
+
+
+  
+}
+.secondPageImg5 img
+{
+    width: 200px;
+    transform: scale(.9);
+
+}
+
+.secondPageImg6 img
+{
+    width: 200px;
+    transform: scale(1);
+    
+}
+.thirdPage
+{
+    margin-top: -200px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.thirdPage p
+{
+    margin-bottom: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+.thirdPageImgs
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+
+    
+}
+.thirdPageImgs img{
+    width: 50px;
+    height:40px;
+    overflow: hidden;
+}
+}
